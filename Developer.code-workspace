@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Developer"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "eThekka"
+	}
+}
