@@ -7,16 +7,19 @@
     <link rel="shortcut icon" type="x-icon" href="Logo.png">
     <title>eThekka </title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
     <div id="main">
         <header>
-            <a href="index.html">
+            <a class="logo-link" href="index.html">
                 <img class="logo" src="./Logo.png" alt="">
             </a>
             <nav>
-                <ul>
+                <i class="fa-solid fa-bars" onclick="showBar()"></i>
+                <ul id="nav-ul">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
@@ -129,12 +132,14 @@
                             <h3>Graphics Design</h3>
                         </a>
                     </div>
-                    \\\
+                  
 
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
